@@ -1,0 +1,38 @@
+:root {
+	font-family: helvetica, georgia,serif;
+
+}
+
+footer {
+	border-style: double;
+	font-size: 18px;
+
+}
+
+header {
+	border-style: double;
+	font-size: 30px;
+	font-weight: bold;
+}
+nav ul a:hover {
+	color: salmon;
+	text-decoration: none;
+}
+.container {
+	background-color: #212b5d;
+}
+.main_content_aboutMe {
+	background-color: salmon;
+	border-style: double;
+}
+.sidebar_projects {
+	background-color: yellow;
+	border-style: double;
+}
+.sidebar_2 {
+	background-color: limegreen;
+	border-style: double;
+}
+
+
+/*This is filling up all the columns and its the same as saying 1/4 but you use -1 just incase you want to expand the grid. If you want all the columns filled except the last one do 1/-2
