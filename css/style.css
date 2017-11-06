@@ -2,37 +2,76 @@
 	font-family: helvetica, georgia,serif;
 
 }
+div {
+	background: rgba(0, 0, 0, 0.5); 
+}
 
 footer {
-	border-style: double;
 	font-size: 18px;
+	background-color: black;
+	color: white;
+	
 
 }
 
 header {
-	border-style: double;
+	color: white;
 	font-size: 30px;
 	font-weight: bold;
+
+}
+nav ul li {
+	color: #ffffff;
 }
 nav ul a:hover {
-	color: salmon;
+	color: #e44a66;
 	text-decoration: none;
 }
+a {
+	color: white;
+	text-decoration: none;
+
+}
+a: visited {
+	color: white;
+}
+
+.img {
+	background-image:url("me.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	/*opacity: 0.2; */
+	background-attachment: local;
+	background-position: center top;
+}
 .container {
-	background-color: #212b5d;
+	height: 100%
+	opacity: 1; 
+	
+	
 }
-.main_content_aboutMe {
-	background-color: salmon;
-	border-style: double;
-}
-.sidebar_projects {
-	background-color: yellow;
-	border-style: double;
-}
-.sidebar_2 {
-	background-color: limegreen;
-	border-style: double;
-}
+.about_me {
+	
+	color: white;
+	font-weight: bolder;
 
-
-/*This is filling up all the columns and its the same as saying 1/4 but you use -1 just incase you want to expand the grid. If you want all the columns filled except the last one do 1/-2
+}
+.projects {
+	color: white;
+	font-weight: bolder;	
+}
+.skills {	
+	color: white;
+	font-weight: bolder;
+}
+/*.top_navbar {
+	text-decoration: underline;
+}
+*/
+#intro {
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+}
